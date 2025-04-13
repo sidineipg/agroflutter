@@ -11,11 +11,11 @@ https://github.com/sidineipg/agroflutter
 https://drive.google.com/file/d/1Q_YaUbgelSSER5HCZpUWw3DmsT86L8wf/view?usp=sharing
 
 ## Install instructions
-1-Download APK file
-2-Autorize download file
-3-Autorize Android to install APK file out of Google Play
-4-Check Android Security checks
-5-Open app "agroflutter" installed
+1-Download APK file<br/>
+2-Autorize download file<br/>
+3-Autorize Android to install APK file out of Google Play<br/>
+4-Check Android Security checks<br/>
+5-Open app "agroflutter" installed<br/>
 
 ## Configuration data of mock api
 https://spg.kinghost.net/agromock/api/edit.php
