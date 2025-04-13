@@ -1,16 +1,27 @@
 # agroflutter
 
-A new Flutter project.
+A demo Flutter project for agro business.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+## Github Project (public) - optional
+https://github.com/sidineipg/agroflutter
 
-A few resources to get you started if this is your first Flutter project:
+## APK Android - download apk file
+https://drive.google.com/file/d/1Q_YaUbgelSSER5HCZpUWw3DmsT86L8wf/view?usp=sharing
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Install instructions
+1-Download APK file
+2-Autorize download file
+3-Autorize Android to install APK file out of Google Play
+4-Check Android Security checks
+5-Open app "agroflutter" installed
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Configuration data of mock api
+https://spg.kinghost.net/agromock/api/edit.php
+
+More information spgdados@gmail.com
+BR +55(51)99378-3141
+whatsapp or Telegram
+
+
