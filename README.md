@@ -16,12 +16,12 @@ https://drive.google.com/file/d/1Q_YaUbgelSSER5HCZpUWw3DmsT86L8wf/view?usp=shari
 3-Autorize Android to install APK file out of Google Play<br/>
 4-Check Android Security checks<br/>
 5-Open app "agroflutter" installed<br/>
+6-Do not need login/pass, authentication not implemented, tap do enter<br/>
 
 ## Configuration data of mock api
 https://spg.kinghost.net/agromock/api/edit.php
 
-More information spgdados@gmail.com
-BR +55(51)99378-3141
+More information spgdados@gmail.com 
 whatsapp or Telegram
 
 
