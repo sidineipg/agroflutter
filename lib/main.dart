@@ -1,3 +1,4 @@
+import 'package:agroflutter/features/dashboard/presentation/pages/login_page.dart';
 import 'package:flutter/material.dart';
 import 'features/dashboard/presentation/pages/dashboard_page.dart';
 
@@ -11,11 +12,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Dashboard Demo',
+      title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
-      home: const DashboardPage(),
+      home: const LoginPage(),
     );
   }
 }
