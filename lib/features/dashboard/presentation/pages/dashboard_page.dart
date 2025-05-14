@@ -1,3 +1,4 @@
+import 'package:agroflutter/features/dashboard/presentation/pages/map_page.dart';
 import 'package:flutter/material.dart';
 import '../widget/dashboard_card.dart'; 
 import '../widget/dashboard_progresscard.dart';
@@ -114,7 +115,7 @@ class _DashboardPageState extends State<DashboardPage> {
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(
                     20,
-                  ), // Define bordas arredondadas
+                  ), 
                   child: Image.asset(
                     'assets/img/profile.png',
                     fit: BoxFit.cover,
@@ -191,7 +192,7 @@ class _DashboardPageState extends State<DashboardPage> {
                                       _isLoading = true;  
                                     });
                                     await _fetchData();  
-      },
+                        },
                           style: ElevatedButton.styleFrom(
                             backgroundColor: Colors.lightBlue,
                             foregroundColor: Colors.white,
@@ -248,6 +249,37 @@ class _DashboardPageState extends State<DashboardPage> {
                       product: _productInfo?.productName ?? '0',
                       percent: _productInfo?.percent ?? '0',
                     ),
+
+
+                    const SizedBox(height: 8),
+                    ElevatedButton(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const MapPage(),  
+                          ),
+                        );
+                      },
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor:
+                            const Color.fromARGB(255, 30, 88, 136),
+                        padding:
+                            const EdgeInsets.symmetric(vertical: 8),
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(20),
+                        ),
+                        minimumSize:
+                            const Size(double.infinity, 40),
+                      ),
+                      child: const Text(
+                        'Realizar Mapeamento',
+                        style: TextStyle(
+                            fontSize: 16, color: Colors.white),
+                      ),
+                    ),
+
+
                   ],
                 ),
               ),

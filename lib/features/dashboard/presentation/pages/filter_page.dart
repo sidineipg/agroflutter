@@ -1,3 +1,4 @@
+import 'package:agroflutter/features/dashboard/presentation/pages/farm_page.dart'; 
 import 'package:flutter/material.dart';
 
 class FilterPage extends StatefulWidget {
@@ -135,6 +136,29 @@ class _FilterPageState extends State<FilterPage> {
               Navigator.pop(context);
             },
           ),
+
+
+          const SizedBox(height: 16),
+
+        // Botão para abrir a tela de fazendas
+        ElevatedButton(
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => const SelectFarmPage(), // Substitua pelo nome correto da tela
+              ),
+            );
+          },
+          style: ElevatedButton.styleFrom(
+            backgroundColor: Colors.green,
+            foregroundColor: Colors.white,
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(10),
+            ),
+          ),
+          child: const Text('Selecionar Fazenda'),
+        ),
 
 
 
