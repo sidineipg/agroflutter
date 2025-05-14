@@ -135,7 +135,7 @@ class _LoginPageState extends State<LoginPage> {
                                         curve: Curves.easeInOut);
                                   },
                                   child: const Text(
-                                    'Já tem uma conta no Plantae.',
+                                    'Já tem uma conta no app.',
                                     style: TextStyle(
                                         color: Colors.grey,
                                         fontWeight: FontWeight.bold),
